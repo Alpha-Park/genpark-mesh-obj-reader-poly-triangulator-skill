@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-mesh-obj-reader-poly-triangulator-skill"
+version = "1.0.0"
+description = "3D polygon mesh processor with Wavefront .OBJ parsing, ear-clipping fan triangulation, and geometric bounds."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "AlphaPark Team", email = "engineering@alphapark.ai"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Graphics :: 3D Rendering"
+]
+
+[project.urls]
+Homepage = "https://github.com/alphaparkinc/genpark-mesh-obj-reader-poly-triangulator-skill"
+Repository = "https://github.com/alphaparkinc/genpark-mesh-obj-reader-poly-triangulator-skill.git"
+Issues = "https://github.com/alphaparkinc/genpark-mesh-obj-reader-poly-triangulator-skill/issues"
