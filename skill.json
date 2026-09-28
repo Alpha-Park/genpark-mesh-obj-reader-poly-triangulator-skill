@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1",
+  "name": "genpark-mesh-obj-reader-poly-triangulator-skill",
+  "version": "1.0.0",
+  "description": "3D polygon mesh processor with Wavefront .OBJ parsing, ear-clipping fan triangulation, and geometric bounds.",
+  "entrypoint": "client.py",
+  "mcp_server": "mcp_server.py",
+  "category": "Service"
+}
